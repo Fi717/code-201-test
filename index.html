@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="description" content="this is demonstration page" />
+    <script src="app.js"></script>
+    <style>
+      body {
+        background-color: rgb(180, 160, 219);
+      }
+      header {
+        color: rgb(240, 211, 139);
+        background-color: rgb(173, 126, 173);
+        font-size: 2rem;
+        font-weight: 400;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 700;
+        font-family: "Cabin", sans-serif;
+      }
+      img {
+        width: 100%;
+      }
+
+      h2 {
+        font-family: "Cabin", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="head-container container">
+        <h1>Baloon World</h1>
+      </div>
+    </header>
+    <main>
+      <div class="main-container container">
+        <p
+          style="
+            color: rgb(188, 82, 82);
+            background-color: rgb(83, 198, 160);
+            font-size: 3rem;
+            padding-left: 1rem; ;
+          "
+        >
+          Welcome!
+        </p>
+      </div>
+      <section>
+        <img src="images/Baloon-1.jpg" alt="baloon picture" />
+
+        <h2></h2>
+        <p
+          style="
+            font-family: 'Delicious Handrawn', cursive;
+            font-size: 1.5rem;
+            text-align: center;
+          "
+        >
+          We give free baloons to make world happier!
+        </p>
+        <h3>
+          <p
+            style="
+              text-align: center;
+              font-family: 'Delicious Handrawn', cursive;
+            "
+          >
+            You are the lucky one!
+          </p>
+        </h3>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container"></div>
+    </footer>
+    <script>
+      let siteVisitor = prompt("What is your name?");
+      console.log("Our visitor name is" + siteVisitor);
+      alert("Welcome to Baloon World " + siteVisitor);
+
+      let age = prompt("How old are you?");
+      alert("You won " + age + " baloons!");
+    </script>
+  </body>
+</html>
